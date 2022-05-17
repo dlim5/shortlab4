@@ -12,17 +12,7 @@ These instructions correspond with the instructions from the lecture slides. See
 1. Register for a (free) [GitHub](https://github.com/) account. You may want to also add the [Student Developer Pack](https://education.github.com/pack) to your account. 
 
 2. Install Git on your computer. 
-```{r}
-install.packages("usethis", "gitcreds")
 
-library(usethis)
-use_git_config(user.name = "Jason Lim",
-               user.email = "dlim5@uw.edu")
-usethis::create_github_token()
-
-
-gitcreds::gitcreds_set()
-```
 3. Introduce yourself to Git. 
 
 4. Introduce your computer to GitHub. 
@@ -37,7 +27,7 @@ gitcreds::gitcreds_set()
 
 Please type only the link to your repository using the template below. Fill in both the square brackets `[]` and the parentheses `()` with your link.
 
-[YOUR LINK HERE](YOUR LINK HERE)
+[https://github.com/dlim5/shortlab4.git](https://github.com/dlim5/shortlab4.git)
 
 Here's a checklist of what we should see at the link above:
 
